@@ -1,0 +1,61 @@
+:root {
+  /* Brand Colors */
+  --kongu-blue: #003366;
+  --kongu-gold: #FFCC00;
+  --guvi-green: #0EB65C;
+  --guvi-purple: #9D4EDD;
+  
+  /* UI Colors */
+  --dark-bg: #0f172a;
+  --light-bg: #f8fafc;
+  --text-main: #1e293b;
+  --text-light: #64748b;
+  --white: #ffffff;
+  
+  /* Spacing */
+  --container-width: 1200px;
+  --section-padding: 80px 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  background-color: var(--light-bg);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--kongu-blue);
+  border-radius: 5px;
+}
